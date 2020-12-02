@@ -11,6 +11,16 @@
     left: auto;
     margin: 0 auto; } }
 
+/* points to montserrat-black on server */
+@font-face {
+	font-family: "Montserrat";
+	src: url("Montserrat-Black.woff");
+}
+@font-face {
+	font-family: "MontserratBold";
+	src: url("Montserrat-Bold.woff");
+}
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -21,13 +31,8 @@ body {
 
 h1 {
   font-size: 2em;
-  font-family: Montserrat-Black;
   margin: 0.67em 0; }
   
-@font-face {
-	font-family: Montserrat-Black;
-	src: url(Montserrat-Black.woff);
-}
 
 hr {
   -webkit-box-sizing: content-box;
@@ -2194,12 +2199,25 @@ small {
   line-height: inherit; }
 
 h1, .h1,
-h2, .h2,
+h2, .h2{
+  font-family: "Montserrat", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility; }
+  h1 small, .h1 small,
+  h2 small, .h2 small,
+  h3 small, .h3 small,
+  h4 small, .h4 small,
+  h5 small, .h5 small,
+  h6 small, .h6 small {
+    line-height: 0;
+    color: #cacaca; }
 h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "MontserratBold", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
