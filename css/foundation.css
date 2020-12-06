@@ -20,6 +20,10 @@
 	font-family: "MontserratBold";
 	src: url("Montserrat-Bold.woff");
 }
+@font-face {
+	font-family: "MontserratOrig";
+	src: url("MontserratOrig.woff");
+}
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -3458,6 +3462,7 @@ select {
     line-height: 1; }
 
 .menu {
+  font-size: 1.3em;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -3476,7 +3481,9 @@ select {
     line-height: 1;
     text-decoration: none;
     display: block;
-    padding: 0.7rem 1rem; }
+    padding: 0.7rem 1rem; 
+    font-family: MontserratOrig;
+	padding-top: .6em;}
   .menu input,
   .menu select,
   .menu a,
@@ -3684,9 +3691,12 @@ select {
               justify-content: flex-start; }
   .menu .menu-text {
     padding: 0.7rem 1rem;
+	font-family: MontserratBold;
     font-weight: bold;
+	font-size:1.35em;
+	color:#414046;
     line-height: 1;
-    color: inherit; }
+    }
 
 .menu-centered > .menu {
   -webkit-box-pack: center;
@@ -5423,7 +5433,7 @@ a.thumbnail {
           flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #f2f2f2; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
