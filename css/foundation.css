@@ -23,7 +23,11 @@
 @font-face {
 	font-family: "MontserratOrig";
 	src: url("MontserratOrig.woff");
+	
 }
+
+/*! banner centered text */
+
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -35,8 +39,9 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
-  
+  margin: 0.67em 0; 
+  }
+ 
 
 hr {
   -webkit-box-sizing: content-box;
@@ -2205,9 +2210,9 @@ small {
 h1, .h1,
 h2, .h2{
   font-family: "Montserrat", Helvetica, Roboto, Arial, sans-serif;
+  color: #48cdff;
   font-style: normal;
   font-weight: normal;
-  color: inherit;
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,
   h2 small, .h2 small,
