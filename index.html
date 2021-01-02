@@ -1,61 +1,21 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ILYH | Illinois Young Hams</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-	<!-- NAVBAR -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text" style="size: 2em; text-color:#48cdff">ILYH.club</li>
-        </ul>
-      </div>
-	  <div class="top-bar-right">
-	    <ul class="menu dropdown" data-dropdown-menu>
-          <li><a href="#">About</a>
-			  <ul class="menu" style="font-size:20px;">
-				<li><a href="#">Affiliates</a></li>
-				<li><a href="#">Membership</a></li>
-				<li><a href="#">Contact</a></li>
-			  </ul>
-		  </li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Projects</a>
-				<ul class="menu" style="font-size:20px;">
-					<li><a href="#">Youth Group DB</a></li>
-					<li><a href="#">Calendar</a></li>
-				</ul>
-		  </li>
-		  <li><a href="#">Discord</a></li>
-        </ul>
-	  </div>
+---
+layout: default
+title: Illinois Young Hams
+---
+{% comment %}TOP IMAGE{% endcomment %}
+<div class="grid-container full">
+  <div class="grid-x grid-padding-x align-center">
+    <img src="{{ "/assets/img/banner_0.png" | relative_url }}">
+  </div>
+</div>
+{% comment %}CONTENT{% endcomment %}
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="large-9 cell">
+      <h1>Welcome to ILYH!</h1>
+      Hello! Welcome to the new ILYH webpage! We're currently in the progress of <a href="//github.com/w9yhi/w9yhi.github.io">rebuilding</a> our website.<br>
+      In the meantime, join us on our Discord server: <a href="//discord.gg/nYBw6v2HAH">discord.gg/nYBw6v2HAH</a><br>
+or send us an email: <img src="{{ "/assets/img/email_temp.png" | relative_url }}" style="height:30px">
     </div>
-	<!--TOP IMAGE-->
-	<div class="grid-container full">
-		<div class="grid-x grid-padding-x align-center">
-				<img src="img/banner_0.png">
-		</div>
-	</div>
-	<!--CONTENT-->
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x grid-padding-y align-center">
-        <div class="large-9 cell">
-			<h1>Welcome to ILYH!</h1>
-			Hello! Welcome to the new ILYH webpage! We're currently in the progress of <a href="https://github.com/w9yhi/w9yhi.github.io">rebuilding</a> our website.<br>
-			In the meantime, join us on our Discord server: <a href="https://discord.gg/nYBw6v2HAH">discord.gg/nYBw6v2HAH</a><br>
-			or send us an email: <img src="email_temp.png" style="height:30px">
-      </div>
-	</div>
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-</html>
+  </div>
+</div>

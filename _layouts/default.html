@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/foundation.css" | relative_url }}">
+  </head>
+  <body>
+    {% include navbar.html %}
+    {{ content }}
+    <script src="{{ "/assets/js/vendor/jquery.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/vendor/what-input.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/vendor/foundation.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
+  </body>
+</html>
