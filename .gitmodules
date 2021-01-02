@@ -1,0 +1,6 @@
+[submodule "_foundation"]
+	path = _foundation
+	url = https://github.com/foundation/foundation-sites
+[submodule "_jquery"]
+	path = _jquery
+	url = https://github.com/jquery/jquery
